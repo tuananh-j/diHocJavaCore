@@ -25,7 +25,7 @@ public class TruongPhong extends NhanVien{
 
     @Override
     public String toString() {
-        return String.format("NhanVien[maNhanVien=%s, hoTen=%s, luong=%.2f, thueThuNhap=%.2f, luongTrachNhiem=%.2f, thuNhap=%.2f]",
+        return String.format("TruongPhong[maNhanVien=%s, hoTen=%s, luong=%.2f, thueThuNhap=%.2f, luongTrachNhiem=%.2f, thuNhap=%.2f]",
                 this.getMaNhanVien(), this.getHoTen(), this.getLuong(), getThueThuNhap(),luongTrachNhiem, getThuNhap());
     }
 
